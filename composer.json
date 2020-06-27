@@ -3,7 +3,8 @@
     "description": "Hello, World! (super simple, just minimal) examples of doing things in Siler.",
     "type": "project",
     "require": {
-        "leocavalcante/siler": "dev-main"
+        "leocavalcante/siler": "dev-main",
+        "webonyx/graphql-php": "^14.0"
     },
     "require-dev": {
         "swoole/ide-helper": "^4.5"
