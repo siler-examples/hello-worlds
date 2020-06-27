@@ -94,3 +94,5 @@ $schema = GraphQL\annotated([Query::class]);
 
 Route\post('/graphql', fn() => GraphQL\init($schema));
 ```
+
+Object type name will be guessed from class name, same for field name, and it's return type (i.e.: PHP `string` scalar === GraphQL `String` scalar).
