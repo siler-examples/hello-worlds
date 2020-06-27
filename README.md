@@ -1,6 +1,6 @@
 # Hello, Worlds!
 
-🌐 "Hello, World!" (super simple, just minimal) examples of doing things in Siler.
+🌐 "Hello, World!" (super simple, just minimal) examples of doing things in [Siler](https://github.com/leocavalcante/siler).
 
 ## Functional
 
