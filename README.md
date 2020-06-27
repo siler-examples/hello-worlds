@@ -14,3 +14,16 @@ use Siler\Route;
 
 Route\get('/', λ\puts('Hello, World!'));
 ```
+
+## JSON
+
+The `Response\json` function will automatically add `Content-type: application/json` in the response headers.
+
+`php -S localhost:8000 -t 01-json`
+
+```php
+use Siler\Route;
+use Siler\Http\Response;
+
+Route\get('/', fn() => Response\json(['message' => 'Hello, World!']));
+```
